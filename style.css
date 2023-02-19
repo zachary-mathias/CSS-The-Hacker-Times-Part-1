@@ -4,9 +4,13 @@ html{
     background-color: #ddd;
     
 }
+.newspaper-container{
+    
+}
 body{
-    margin: 5em 10em 10em 5em;
-    padding: 1em;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 5em;
     width: 700px;
     background-color: #eee;
     border-radius: 1%;
@@ -53,6 +57,7 @@ hr {
     border-top: 1px solid lightgray;
     margin: 1em 0;
     padding: 0;
+    background-color: #eee;
   }
 .more-articles{
     display: flex;
@@ -80,4 +85,9 @@ section p{
 }
 main h2{
     font-family: Roboto Slab;
+}
+nav{
+    position: sticky;
+    top: 0em;
+    background-color: #eee;
 }
